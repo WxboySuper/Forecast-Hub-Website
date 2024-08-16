@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(cloud.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Add this line */
+    margin: 0; /* Add this line */
+}
+
+.container {
+    max-width: 600px; /* Increase the max-width */
+    margin: auto;
+    padding: 50px; /* Increase the padding */
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px; /* Increase the input padding */
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font-size: 28px; /* Increase the font size */
+}
+
+button {
+    padding: 15px; /* Increase the button padding */
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 28px; /* Increase the font size */
+}
+
+button:hover {
+    background-color: #256828;
+}
